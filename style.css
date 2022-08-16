@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(220, 220, 220);
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.firstline{
+    background-color: purple;
+    color: white;
+    padding: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+h4{
+    text-align: center;
+}
+
+.secondline{
+    background-color: white;
+    margin: 35px 0;
+    padding: 40px;
+    justify-content: space-between;
+    display: flex;
+    
+}
+
+.thirdline{
+    background-color: white;
+    margin: 20px 0;
+    padding: 30px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: relative;
+}
+
+input{
+    height: 40px;
+    width: 100%;
+    background-color: silver;
+    border-style: none;
+    border-radius: 5px;
+}
+
+.todo-deadline{
+    margin-top: 10px;
+}
+
+button{
+    height: 50px;
+    border-style: none;
+    border-radius: 25px;
+    background-color: purple;
+    color: white;
+    font-size: 15px;
+    padding: 15px;
+    margin-top: 3px;
+    margin-left: 100px;
+    opacity: 0.7;
+    position: absolute;    
+}
